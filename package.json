@@ -9,13 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.20",
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "expo": "~54.0.21",
+    "expo-camera": "~17.0.9",
+    "expo-image-picker": "~17.0.8",
+    "expo-location": "~19.0.7",
+    "expo-router": "~6.0.14",
     "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
+    "firebase": "^12.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.76.3",
+    "react-native-maps": "^1.26.18"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@types/react": "^18.3.3",
     "typescript": "~5.9.2"
   },
   "private": true
