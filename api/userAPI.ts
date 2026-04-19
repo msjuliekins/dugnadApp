@@ -4,7 +4,7 @@ import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 
 export async function createUserProfile(userId: string, user: UserData) {
   try {
-    await setDoc(doc(db, "users", userId), user); // I oppgaven skrev jeg at det skulle være {} rundt user, dette er feil, siden det lager et esktra lag rundt objektet i firebase
+    await setDoc(doc(db, "users", userId), user);
     console.log("Document written with ID: ", userId);
   } catch (e) {
     console.log("Error creating user profile", e);
